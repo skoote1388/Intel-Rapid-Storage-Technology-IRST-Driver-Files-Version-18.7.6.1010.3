@@ -39,3 +39,19 @@ These drivers may be needed when Windows Setup cannot detect a drive configured 
 Having the extracted driver files available on a USB drive can help when you cannot access another computer to extract them.
 
 I hope this repository helps someone else get Windows installed without the extra hassle!
+
+## Disclaimer
+
+This is an independent, unofficial community resource based on my own Windows
+installation experience. It is **not affiliated with, endorsed by, or sponsored
+by** Intel Corporation, Microsoft Corporation, or any hardware manufacturer.
+
+"Intel", "Intel Rapid Storage Technology", "Intel VMD", and "Windows" are
+trademarks of their respective owners and are used here for identification only.
+
+The guide text in this repository is licensed under the MIT License (see
+`LICENSE`). Vendor files referenced or bundled in linked repositories remain
+the property of their respective owners.
+
+Always verify the correct storage configuration and driver for your specific
+computer before making changes. Use at your own risk.
