@@ -40,18 +40,45 @@ Having the extracted driver files available on a USB drive can help when you can
 
 I hope this repository helps someone else get Windows installed without the extra hassle!
 
-## Disclaimer
+# Redistribution Notice
 
-This is an independent, unofficial community resource based on my own Windows
-installation experience. It is **not affiliated with, endorsed by, or sponsored
-by** Intel Corporation, Microsoft Corporation, or any hardware manufacturer.
+The Intel Rapid Storage Technology (IRST) driver files in this repository are
+**redistributed for convenience only**. No ownership is claimed.
 
-"Intel", "Intel Rapid Storage Technology", "Intel VMD", and "Windows" are
-trademarks of their respective owners and are used here for identification only.
+## Ownership
 
-The guide text in this repository is licensed under the MIT License (see
-`LICENSE`). Vendor files referenced or bundled in linked repositories remain
-the property of their respective owners.
+All driver files remain the property of Intel Corporation. "Intel" and
+"Intel Rapid Storage Technology" are trademarks of Intel Corporation and are
+used here for identification purposes only.
+
+This repository is **not affiliated with, endorsed by, or sponsored by Intel**.
+
+## Redistribution basis
+
+These files are redistributed in **unmodified form** exactly as produced by
+Intel's official `SetupRST.exe` extraction process. No driver files (`.inf`,
+`.sys`, `.cat`, etc.) have been edited.
+
+Intel's driver installers permit redistribution in unmodified form for the
+purpose of installation and deployment. If Intel's terms change or a removal
+request is made, this repository will be updated accordingly.
+
+## Source
+
+- **Product:** Intel Rapid Storage Technology (IRST) Driver
+- **Version:** 18.7.6.1010.3
+- **Obtained via:** `SetupRST.exe -extractdrivers SetupRST_extracted`
+- **Original installer source:** https://www.intel.com/content/www/us/en/download/19512/
+- **Date retrieved:** [YYYY-MM-DD]
+
+## Verification
+
+SHA-256 checksums for every bundled file are listed in `SOURCES.md`. Always
+verify against Intel's official release when possible.
+
+## Contact
+
+If you are Intel and want a change or removal, open an issue.
 
 Always verify the correct storage configuration and driver for your specific
 computer before making changes. Use at your own risk.
